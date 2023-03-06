@@ -1,3 +1,5 @@
+const LoginPage = require('./pages/LoginPage')
+
 Feature('Zero Bank Application - E2E Test')
 
 Before(({ I }) => {
@@ -9,11 +11,9 @@ After(({ I }) => {
   console.log('AFTER HOOK')
 })
 
-Scenario('Login Test - Negative', ({ I }) => {
+Scenario('Login Test - Negative', ({ I, LoginPage }) => {
   I.click('#signin_button')
-  I.seeElement('#login_form')
-  I.fillField('#user_login', 'invalid_username')
-  I.fillField('#user_password', 'invalid_password')
-  I.click('.btn-primary')
+  LoginPage.asserLoginFormIsVisible()
+  LoginPage.submitLogin('invalid_username', 'invalid_password')
   I.seeElement('.alert-error')
 })
