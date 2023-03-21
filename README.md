@@ -13,4 +13,13 @@ The attached guide below (in Hingarian) covers everything from setting up the en
 
 Overall, this mini project demonstrates the power and simplicity of using Playwright and CodeceptJS for automated testing.
 
+# 👨‍🔧 Try it yourself
+
+ℹ️ _Clone or download the project and run these scripts from the project library (e.g. C:\repos\playwright-codecept>)_
+
+**Run the tests from terminal:** 
+```shell
+npm run test
+```
+
 ✨***Step-by-step explanation in Hungarian in Notion:** https://www.notion.so/Playwright-CodeceptJS-fafceb4c83bc42b49a7b8dca0d3bd67b?pvs=4*
