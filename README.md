@@ -1,4 +1,4 @@
-# Playwright with CodeceptJS
+# :performing_arts: Playwright with CodeceptJS
 
 **Playwright** is a Node.js library by Microsoft for automating web browsers, offering a high-level API for Chrome, Firefox, and Safari. It enables reliable end-to-end testing, browser automation, and user interaction.
 
